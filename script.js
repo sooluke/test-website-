@@ -39,3 +39,40 @@ filters.forEach((filter) => {
 });
 
 </writing>
+
+/* =========================
+   TRUST SCORE
+========================= */
+
+const trustScore = document.querySelector(".trust-score");
+
+if (trustScore) {
+
+  const score = Number(
+    trustScore.dataset.score
+  );
+
+  const safeScore = Math.min(
+    100,
+    Math.max(0, score)
+  );
+
+
+  const valueElement =
+    document.querySelector("#trust-value");
+
+  const progressElement =
+    document.querySelector("#trust-progress");
+
+
+  if (valueElement) {
+    valueElement.textContent = safeScore;
+  }
+
+
+  if (progressElement) {
+    progressElement.style.width =
+      `${safeScore}%`;
+  }
+
+}
