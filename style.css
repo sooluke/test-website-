@@ -560,3 +560,213 @@ footer {
 }
 
 filters.forEach((filter) => {
+
+```css
+/* =========================
+   ARTICLE PAGE
+========================= */
+
+.article-header {
+  padding: 110px 0 80px;
+  border-bottom: 1px solid var(--border);
+}
+
+
+.article-container {
+  max-width: 780px;
+}
+
+
+.article-header h1 {
+  max-width: 850px;
+
+  margin-top: 25px;
+
+  font-size: clamp(2.8rem, 7vw, 5rem);
+  line-height: 1.05;
+
+  letter-spacing: -0.05em;
+}
+
+
+.article-intro {
+  max-width: 680px;
+
+  margin-top: 30px;
+
+  color: var(--muted);
+
+  font-size: 20px;
+}
+
+
+.full-article {
+  padding: 90px 0;
+}
+
+
+.full-article p {
+  margin-bottom: 28px;
+
+  color: #444;
+
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+
+.full-article h2 {
+  margin: 70px 0 25px;
+
+  font-size: 30px;
+}
+
+
+/* =========================
+   WEBSITE SCREENSHOT
+========================= */
+
+.website-screenshot {
+  margin: 70px 0;
+}
+
+
+.screenshot-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--soft);
+
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+
+  color: var(--muted);
+}
+
+
+.screenshot-placeholder span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.screenshot-placeholder small {
+  margin-top: 8px;
+}
+
+
+.website-screenshot img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  border-radius: 8px;
+
+  border: 1px solid var(--border);
+}
+
+
+.website-screenshot figcaption {
+  margin-top: 12px;
+
+  color: var(--muted);
+
+  font-size: 13px;
+}
+
+
+/* =========================
+   TRUST SCORE
+========================= */
+
+.trust-section {
+  padding: 90px 0;
+
+  background: var(--soft);
+
+  border-top: 1px solid var(--border);
+}
+
+
+.trust-container {
+  max-width: 780px;
+}
+
+
+.trust-header {
+  display: flex;
+
+  align-items: end;
+  justify-content: space-between;
+
+  margin-bottom: 35px;
+}
+
+
+.trust-header h2 {
+  margin: 0;
+}
+
+
+.trust-number {
+  font-size: 42px;
+
+  font-weight: 700;
+
+  letter-spacing: -0.04em;
+}
+
+
+.trust-bar {
+  width: 100%;
+  height: 14px;
+
+  overflow: hidden;
+
+  background: #e3e3e3;
+
+  border-radius: 20px;
+}
+
+
+.trust-progress {
+  width: 0%;
+  height: 100%;
+
+  background: #111;
+
+  border-radius: 20px;
+
+  transition: width 0.8s ease;
+}
+
+
+.trust-description {
+  max-width: 650px;
+
+  margin-top: 25px;
+
+  color: var(--muted);
+
+  font-size: 14px;
+}
+
+
+.trust-scale {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 10px;
+
+  color: var(--muted);
+
+  font-size: 11px;
+}
+```
