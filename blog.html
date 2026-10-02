@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
   <title>Blog — Project Name</title>
   <meta
     name="description"
-    content="Articles and ideas from Project Name."
+    content="Articles, research and ideas from Project Name."
   >
 
   <link rel="stylesheet" href="style.css">
@@ -40,7 +41,7 @@
         <h1>Blog</h1>
 
         <p>
-          Thoughts, experiments and things I've learned along the way.
+          Research, ideas, experiments and things I've learned.
         </p>
 
       </div>
@@ -50,43 +51,37 @@
     <section class="blog-section">
       <div class="container">
 
-
         <!-- FILTERS -->
 
         <div class="filters">
 
-          <button
-            class="filter active"
-            data-filter="all"
-          >
+          <button class="filter active" data-filter="all">
             All
           </button>
 
-          <button
-            class="filter"
-            data-filter="AAA"
-          >
+          <button class="filter" data-filter="AAA">
             AAA
           </button>
 
-          <button
-            class="filter"
-            data-filter="BBB"
-          >
+          <button class="filter" data-filter="BBB">
             BBB
           </button>
 
         </div>
 
 
-        <!-- ARTICLES -->
+        <!-- ARTICLE LIST -->
 
-        <div class="articles">
+        <div class="article-list">
 
 
-          <article class="article" data-category="AAA">
+          <a
+            href="blog/simple-ideas.html"
+            class="article-preview"
+            data-category="AAA"
+          >
 
-            <div class="article-meta">
+            <div class="article-preview-meta">
               <span class="tag">AAA</span>
               <span>October 2, 2026</span>
             </div>
@@ -96,34 +91,24 @@
             </h2>
 
             <p>
-              Simple products often look obvious after they are finished.
-              Getting there, however, can require removing dozens of
-              unnecessary ideas and decisions.
+              A short exploration of simplicity, constraints
+              and the process behind building useful things.
             </p>
 
-            <p>
-              When starting a new project, it is tempting to add features
-              immediately. More options seem to create more value. In
-              practice, every additional feature creates another decision,
-              another interface and another thing that needs maintenance.
-            </p>
+            <span class="read-more">
+              Read article →
+            </span>
 
-            <p>
-              A useful constraint is to ask one question:
-              <strong>what is the smallest version that solves the actual problem?</strong>
-            </p>
-
-            <p>
-              This approach does not mean making something incomplete.
-              It means being deliberate about what deserves to exist.
-            </p>
-
-          </article>
+          </a>
 
 
-          <article class="article" data-category="AAA">
+          <a
+            href="blog/constraints.html"
+            class="article-preview"
+            data-category="AAA"
+          >
 
-            <div class="article-meta">
+            <div class="article-preview-meta">
               <span class="tag">AAA</span>
               <span>September 28, 2026</span>
             </div>
@@ -133,28 +118,24 @@
             </h2>
 
             <p>
-              Constraints can feel restrictive when we start a project.
-              There is a strange assumption that unlimited freedom produces
-              better results.
+              How limitations can improve creativity, focus
+              and the final result.
             </p>
 
-            <p>
-              In reality, limitations can make creative decisions easier.
-              A small number of tools, a short deadline or a simple
-              technical stack can force us to focus on what actually matters.
-            </p>
+            <span class="read-more">
+              Read article →
+            </span>
 
-            <p>
-              For this project, the constraint is intentional:
-              keep the website fast, understandable and easy to maintain.
-            </p>
-
-          </article>
+          </a>
 
 
-          <article class="article" data-category="BBB">
+          <a
+            href="blog/building-in-public.html"
+            class="article-preview"
+            data-category="BBB"
+          >
 
-            <div class="article-meta">
+            <div class="article-preview-meta">
               <span class="tag">BBB</span>
               <span>September 20, 2026</span>
             </div>
@@ -164,29 +145,24 @@
             </h2>
 
             <p>
-              Building something privately can feel comfortable.
-              You can change direction, remove mistakes and experiment
-              without anyone watching.
+              Thoughts on sharing unfinished work and
+              documenting the development process.
             </p>
 
-            <p>
-              Building in public introduces a different dynamic.
-              You have to explain decisions while they are still being made.
-              Sometimes that feels uncomfortable, but the process creates
-              an unexpected benefit: clarity.
-            </p>
+            <span class="read-more">
+              Read article →
+            </span>
 
-            <p>
-              When you explain an unfinished idea to another person,
-              weak assumptions become much easier to notice.
-            </p>
-
-          </article>
+          </a>
 
 
-          <article class="article" data-category="BBB">
+          <a
+            href="blog/documenting-process.html"
+            class="article-preview"
+            data-category="BBB"
+          >
 
-            <div class="article-meta">
+            <div class="article-preview-meta">
               <span class="tag">BBB</span>
               <span>September 12, 2026</span>
             </div>
@@ -196,22 +172,15 @@
             </h2>
 
             <p>
-              Most project pages show the final result.
-              They rarely show the dozens of small decisions that came before it.
+              Why the decisions behind a project can be
+              just as interesting as the final result.
             </p>
 
-            <p>
-              I think the process is often more interesting than the final
-              screenshot. What failed? What changed? Which assumptions turned
-              out to be wrong?
-            </p>
+            <span class="read-more">
+              Read article →
+            </span>
 
-            <p>
-              This blog is an attempt to document some of those decisions
-              rather than only presenting polished outcomes.
-            </p>
-
-          </article>
+          </a>
 
 
         </div>
@@ -231,5 +200,7 @@
 
 
   <script src="script.js"></script>
+
 </body>
 </html>
+```
