@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Blog — Project Name</title>
+  <meta
+    name="description"
+    content="Articles and ideas from Project Name."
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+
+      <a href="index.html" class="logo">PROJECT NAME</a>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="page-header">
+      <div class="container">
+
+        <p class="eyebrow">ARTICLES</p>
+
+        <h1>Blog</h1>
+
+        <p>
+          Thoughts, experiments and things I've learned along the way.
+        </p>
+
+      </div>
+    </section>
+
+
+    <section class="blog-section">
+      <div class="container">
+
+
+        <!-- FILTERS -->
+
+        <div class="filters">
+
+          <button
+            class="filter active"
+            data-filter="all"
+          >
+            All
+          </button>
+
+          <button
+            class="filter"
+            data-filter="AAA"
+          >
+            AAA
+          </button>
+
+          <button
+            class="filter"
+            data-filter="BBB"
+          >
+            BBB
+          </button>
+
+        </div>
+
+
+        <!-- ARTICLES -->
+
+        <div class="articles">
+
+
+          <article class="article" data-category="AAA">
+
+            <div class="article-meta">
+              <span class="tag">AAA</span>
+              <span>October 2, 2026</span>
+            </div>
+
+            <h2>
+              Why Simple Ideas Are Often the Hardest to Build
+            </h2>
+
+            <p>
+              Simple products often look obvious after they are finished.
+              Getting there, however, can require removing dozens of
+              unnecessary ideas and decisions.
+            </p>
+
+            <p>
+              When starting a new project, it is tempting to add features
+              immediately. More options seem to create more value. In
+              practice, every additional feature creates another decision,
+              another interface and another thing that needs maintenance.
+            </p>
+
+            <p>
+              A useful constraint is to ask one question:
+              <strong>what is the smallest version that solves the actual problem?</strong>
+            </p>
+
+            <p>
+              This approach does not mean making something incomplete.
+              It means being deliberate about what deserves to exist.
+            </p>
+
+          </article>
+
+
+          <article class="article" data-category="AAA">
+
+            <div class="article-meta">
+              <span class="tag">AAA</span>
+              <span>September 28, 2026</span>
+            </div>
+
+            <h2>
+              The Value of Working With Constraints
+            </h2>
+
+            <p>
+              Constraints can feel restrictive when we start a project.
+              There is a strange assumption that unlimited freedom produces
+              better results.
+            </p>
+
+            <p>
+              In reality, limitations can make creative decisions easier.
+              A small number of tools, a short deadline or a simple
+              technical stack can force us to focus on what actually matters.
+            </p>
+
+            <p>
+              For this project, the constraint is intentional:
+              keep the website fast, understandable and easy to maintain.
+            </p>
+
+          </article>
+
+
+          <article class="article" data-category="BBB">
+
+            <div class="article-meta">
+              <span class="tag">BBB</span>
+              <span>September 20, 2026</span>
+            </div>
+
+            <h2>
+              What I Learned From Building in Public
+            </h2>
+
+            <p>
+              Building something privately can feel comfortable.
+              You can change direction, remove mistakes and experiment
+              without anyone watching.
+            </p>
+
+            <p>
+              Building in public introduces a different dynamic.
+              You have to explain decisions while they are still being made.
+              Sometimes that feels uncomfortable, but the process creates
+              an unexpected benefit: clarity.
+            </p>
+
+            <p>
+              When you explain an unfinished idea to another person,
+              weak assumptions become much easier to notice.
+            </p>
+
+          </article>
+
+
+          <article class="article" data-category="BBB">
+
+            <div class="article-meta">
+              <span class="tag">BBB</span>
+              <span>September 12, 2026</span>
+            </div>
+
+            <h2>
+              Documenting the Process Instead of the Result
+            </h2>
+
+            <p>
+              Most project pages show the final result.
+              They rarely show the dozens of small decisions that came before it.
+            </p>
+
+            <p>
+              I think the process is often more interesting than the final
+              screenshot. What failed? What changed? Which assumptions turned
+              out to be wrong?
+            </p>
+
+            <p>
+              This blog is an attempt to document some of those decisions
+              rather than only presenting polished outcomes.
+            </p>
+
+          </article>
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Project Name</span>
+      <span>Built with HTML, CSS & JavaScript.</span>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
